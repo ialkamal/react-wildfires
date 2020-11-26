@@ -23,6 +23,7 @@ function App() {
         <Map eventData={eventData} />
       ) : (
         <iframe
+          title="Loader"
           src="https://giphy.com/embed/feN0YJbVs0fwA"
           width="200"
           height="200"
