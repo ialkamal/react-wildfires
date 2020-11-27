@@ -10,7 +10,7 @@ function Map({ eventData, center, zoom }) {
     <div className="map">
       {locationInfo && <LocationInfoBox info={locationInfo} />}
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyBydI46W5q-pzKPI0OFNZWzT3LPlRT-5MM" }}
+        bootstrapURLKeys={{ key: "YOUR_API_KEY_HERE" }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
